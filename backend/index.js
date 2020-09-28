@@ -28,7 +28,7 @@ app.listen(port, () => {
 });
 
 app.post('/login', (req, res) => {
-    if (req.body.username === 'rodrigorahman' && req.body.password === 'rahman') {
+    if (req.body.username === 'lbjbrdev' && req.body.password === '220402berce') {
         const id = '1';
         const token = jwt.sign({ id }, SECRET, {
             expiresIn: 300
